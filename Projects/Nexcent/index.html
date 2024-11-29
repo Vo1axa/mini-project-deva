@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexcent - Lessons and Insights</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="images/icon.png" alt="Nexcent Logo">
+        <a href="#">Nexcent</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Testimonial</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+      <div class="cta">
+        <a href="#" class="btn login-btn">Login</a>
+        <a href="#" class="btn signup-btn">Sign Up</a>
+      </div>
+    </nav>
+  </header>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Lessons and insights <span>from 8 years</span></h1>
+        <p>Where to grow your business as a photographer: site or social media?</p>
+        <a href="#" class="cta-btn">Register</a>
+      </div>
+      <div class="hero-image">
+        <img draggable="false" src="images/Illustration.png" alt="Business Growth Illustration">
+      </div>
+    </section>
+    <div class="slider-dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+  
+  </main>
+
+
+
+      <title>Our Clients Section</title>
+      <style>
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+  
+          body {
+              font-family: Arial, sans-serif;
+              background-color: #ffffff;
+          }
+  
+          .clients-section {
+              padding: 4rem 2rem;
+              text-align: center;
+          }
+  
+          .section-title {
+              margin-bottom: 1rem;
+              color: #333;
+              font-size: 2rem;
+          }
+  
+          .section-subtitle {
+              color: #666;
+              margin-bottom: 3rem;
+              font-size: 1rem;
+          }
+  
+          .clients-grid {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+              gap: 3rem;
+              max-width: 1200px;
+              margin: 0 auto;
+          }
+  
+          .client-logo {
+              width: 100px;
+              height: 50px;
+              object-fit: contain;
+              border-radius: 8px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              transition: transform 0.3s ease;
+          }
+  
+          .client-logo:hover {
+              transform: scale(1.1);
+          }
+  
+          /* Responsive Design */
+          @media (max-width: 768px) {
+              .clients-grid {
+                  gap: 2rem;
+              }
+  
+              .client-logo {
+                  width: 80px;
+                  height: 40px;
+              }
+          }
+  
+          @media (max-width: 480px) {
+              .clients-section {
+                  padding: 2rem 1rem;
+              }
+  
+              .section-title {
+                  font-size: 1.5rem;
+              }
+  
+              .clients-grid {
+                  gap: 1rem;
+              }
+  
+              .client-logo {
+                  width: 60px;
+                  height: 30px;
+              }
+          }
+      </style>
+  </head>
+  <body>
+      <section class="clients-section">
+          <h2 class="section-title">Our Clients</h2>
+          <p class="section-subtitle">We have been working with some Fortune 500+ clients</p>
+          
+          <div class="clients-grid">
+              <!-- Logo placeholders -->
+              <img src="images/C1.svg" alt="Client Logo" class="client-logo">
+              <img src="images/C2.svg" alt="Client Logo" class="client-logo">
+              <img src="images/C3.svg" alt="Client Logo" class="client-logo">
+              <img src="images/C4.svg" alt="Client Logo" class="client-logo">
+              <img src="images/C5.svg" alt="Client Logo" class="client-logo">
+              <img src="images/C6.svg" alt="Client Logo" class="client-logo">
+              <img src="images/C7.svg" alt="Client Logo" class="client-logo">
+          </div>
+      </section>
+
+    <title>Community Management System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .feature-card {
+            flex: 1;
+            min-width: 300px;
+            padding: 30px;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .icon {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 20px;
+            background: #f5f5f5;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .feature-card:nth-child(1) .icon {
+            background: #e8f5e9;
+        }
+
+        .feature-card:nth-child(2) .icon {
+            background: #e3f2fd;
+        }
+
+        .feature-card:nth-child(3) .icon {
+            background: #f3e5f5;
+        }
+
+        .icon i {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .feature-card h3 {
+            font-size: 1.3rem;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+            }
+
+            .feature-card {
+                min-width: 100%;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .feature-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Manage your entire community<br>in a single system</h1>
+            <p>Who is NextLevel suitable for?</p>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="icon">
+                    <img src="images/Why1.svg" alt="">
+                </div>
+                <h3>Membership Organisations</h3>
+                <p>Our membership management software provides full automation of membership renewals and payments</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">
+                    <img src="images/Why2.svg" alt="">
+                </div>
+                <h3>National Associations</h3>
+                <p>Our membership management software provides full automation of membership renewals and payments</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">
+                    <img src="images/Why3.svg" alt="">
+                </div>
+                <h3>Clubs And Groups</h3>
+                <p>Our membership management software provides full automation of membership renewals and payments</p>
+            </div>
+        </div>
+    </div>
+
+    <title>Pixelgrade Experience</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .hero-section {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .illustration {
+            flex: 1;
+            position: relative;
+            min-height: 400px;
+        }
+
+        .card {
+            width: 200px;
+            height: 300px;
+            background: #4CAF50;
+            border-radius: 15px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .person {
+            position: absolute;
+            width: 120px;
+            height: 250px;
+        }
+
+        .person-left {
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #4CAF50;
+        }
+
+        .person-right {
+            right: -50px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #4CAF50;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .content h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .content p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .learn-more {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .learn-more:hover {
+            background: #45a049;
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .illustration {
+                min-height: 300px;
+            }
+
+            .content h1 {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-section {
+                margin: 30px auto;
+            }
+
+            .content h1 {
+                font-size: 1.8rem;
+            }
+
+            .illustration {
+                min-height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero-section">
+        <div class="illustration">
+            <div class="">
+                <img src="images/P.png" alt="Business Growth Illustration">
+            </div>
+        </div>
+        <div class="content">
+            <h1>The unseen of spending three years at Pixelgrade</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut amet justo ipsum. Sed accumsan ipsum vitae est turpis fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique lectus, faucibus pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec consectetur pulvinar odio.</p>
+            <a href="#" class="learn-more">Learn More</a>
+        </div>
+    </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

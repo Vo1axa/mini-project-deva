@@ -3,23 +3,25 @@
 <head> 
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Kalkulator Sederhana</title> 
+    <title>Modern Calculator</title> 
     <link rel="stylesheet" href="index.css">
     <script src="index.js" defer></script>
-    
 </head> 
+
 <body> 
+    <button style="position: absolute; top: 10px; left: 10px;" onclick="window.history.back()" class="back-btn">Go Back</button>
+
     <div class="calculator"> 
         <input type="text" class="display" readonly> 
         <div class="buttons"> 
             <button class="clear">C</button> 
             <button class="operator">←</button> 
             <button class="operator">%</button> 
-            <button class="operator">/</button> 
+            <button class="operator">÷</button> 
             <button>7</button> 
             <button>8</button> 
             <button>9</button> 
-            <button class="operator">*</button> 
+            <button class="operator">×</button> 
             <button>4</button> 
             <button>5</button> 
             <button>6</button> 
@@ -35,6 +37,6 @@
         </div> 
     </div> 
  
-    
+
 </body> 
 </html>

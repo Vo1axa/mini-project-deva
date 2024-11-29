@@ -1,0 +1,248 @@
+    /* Global Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 1rem 2rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .logo a {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links li {
+      margin-right: 2rem;
+    }
+
+    .nav-links a {
+      color: #333;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #4CAF50;
+    }
+
+    .cta {
+      display: flex;
+      align-items: center;
+    }
+
+    .cta .btn {
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta .login-btn {
+      background-color: transparent;
+      color: #333;
+      margin-right: 1rem;
+    }
+
+    .cta .login-btn:hover {
+      color: #4CAF50;
+    }
+
+    .cta .signup-btn {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+
+    .cta .signup-btn:hover {
+      background-color: #3e8e41;
+    }
+
+    /* Hero Section Styles */
+    .hero {
+      background-color: #f7f7f7;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    .cta-btn {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-btn:hover {
+      background-color: #3e8e41;
+    }
+
+    /* Other Section Styles */
+    .clients,
+    .pixelgrade,
+    .local-business,
+    .footer-design,
+    .blog {
+      padding: 60px 20px;
+    }
+
+    .clients h2,
+    .pixelgrade h2,
+    .local-business h2,
+    .footer-design h2,
+    .blog h2 {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+
+    .learn-more {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+  
+    /* Previous CSS styles remain the same */
+
+    /* Hero Section Updates */
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f7f7f7;
+      padding: 80px 120px;
+      text-align: left;
+    }
+
+    .hero-content {
+      flex: 1;
+      max-width: 500px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .hero h1 span {
+      color: #4CAF50;
+      display: block;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 40px;
+      color: #666;
+    }
+
+    .hero-image {
+      flex: 1;
+      max-width: 600px;
+      margin-left: 40px;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: auto;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 15px 30px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-btn:hover {
+      background-color: #3e8e41;
+    }
+
+    .slider-dots {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #ccc;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background-color: #4CAF50;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      .hero-content {
+        margin-bottom: 40px;
+      }
+
+      .hero-image {
+        margin-left: 0;
+      }
+    }
